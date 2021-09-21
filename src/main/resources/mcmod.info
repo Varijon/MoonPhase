@@ -1,0 +1,16 @@
+[
+{
+  "modid": "moonphase",
+  "name": "MoonPhase",
+  "description": "Get moon phase.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Varijon"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
