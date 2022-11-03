@@ -1,8 +1,8 @@
 [
 {
-  "modid": "moonphase",
-  "name": "MoonPhase",
-  "description": "Get moon phase.",
+  "modid": "disableessence",
+  "name": "DisableEssence",
+  "description": "Disable TCG essence messages.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
