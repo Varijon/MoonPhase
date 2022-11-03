@@ -1,4 +1,4 @@
-package com.varijon.tinies.DisableEssence;
+package com.varijon.tinies.MoonPhase;
 
 
 import net.minecraftforge.client.ClientCommandHandler;
@@ -11,8 +11,8 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 
-@Mod(modid="disableessence", version="1.0.1", acceptableRemoteVersions="*")
-public class DisableEssence
+@Mod(modid="moonphase", version="1.0.1", acceptableRemoteVersions="*")
+public class MoonPhase
 {
 	public static String MODID = "modid";
 	public static String VERSION = "version";
@@ -27,7 +27,8 @@ public class DisableEssence
 	@EventHandler
 	public void init(FMLInitializationEvent e)
 	{
-		MinecraftForge.EVENT_BUS.register(new DisableEssenceHandler());
+		ClientCommandHandler.instance.registerCommand(new MoonPhaseCommand());
+		MinecraftForge.EVENT_BUS.register(new MoonPhaseHandler());
 	}
 	
 	@EventHandler
